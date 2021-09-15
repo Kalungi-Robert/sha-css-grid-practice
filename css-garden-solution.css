@@ -1,0 +1,283 @@
+  /*level 1 */
+    #garden {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+        #water {
+            grid-column-start: 3;
+        } 
+
+       /*level 2 */
+            #garden {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            grid-template-rows: 20% 20% 20% 20% 20%;
+        }
+            #poison {
+                grid-column-start: 5;
+            } 
+
+           /* level 3*/
+            #garden {
+                display: grid;
+                grid-template-columns: 20% 20% 20% 20% 20%;
+                grid-template-rows: 20% 20% 20% 20% 20%;
+            }
+                #water {
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                } 
+
+                /*level 4*/
+                #garden {
+                    display: grid;
+                    grid-template-columns: 20% 20% 20% 20% 20%;
+                    grid-template-rows: 20% 20% 20% 20% 20%;
+                }
+                    #water {
+                        grid-column-start: 5;
+                        grid-column-end: 2;
+                    } 
+
+                    /*level 5*/
+                    #garden {
+                        display: grid;
+                        grid-template-columns: 20% 20% 20% 20% 20%;
+                        grid-template-rows: 20% 20% 20% 20% 20%;
+                    }
+                        #water {
+                            grid-column-start: 1;
+grid-column-end: -2;
+                        } 
+
+                      /*  level 6*/
+                        #garden {
+                            display: grid;
+                            grid-template-columns: 20% 20% 20% 20% 20%;
+                            grid-template-rows: 20% 20% 20% 20% 20%;
+                        }
+                            #poison {
+                                grid-column-start: -3;
+                            } 
+
+                             /*level 7 */
+                            #garden {
+                                display: grid;
+                                grid-template-columns: 20% 20% 20% 20% 20%;
+                                grid-template-rows: 20% 20% 20% 20% 20%;
+                            }
+                                #water {
+                                    grid-column-start: 2;
+                                    grid-column-end: 2;
+                                } 
+
+                                /*  level 8*/                                #garden {
+                                    display: grid;
+                                    grid-template-columns: 20% 20% 20% 20% 20%;
+                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                }
+                                    #water {
+                                        grid-column-start: 1;
+                            grid-column-end: 5;            
+                                    } 
+
+                                   /* level 9*/
+
+                                    #garden {
+                                        display: grid;
+                                        grid-template-columns: 20% 20% 20% 20% 20%;
+                                        grid-template-rows: 20% 20% 20% 20% 20%;
+                                    }
+                                        #water {
+                                            grid-column-start: span 3;
+                                            grid-column-end: 6;
+                                        } 
+
+                                      /*  level 10*/
+
+                                        #garden {
+                                            display: grid;
+                                            grid-template-columns: 20% 20% 20% 20% 20%;
+                                            grid-template-rows: 20% 20% 20% 20% 20%;
+                                        }
+                                            #water {
+                                                grid-column: 4 / 6;
+                                            } 
+
+                                            /*level 11*/
+                                            #garden {
+                                                display: grid;
+                                                grid-template-columns: 20% 20% 20% 20% 20%;
+                                                grid-template-rows: 20% 20% 20% 20% 20%;
+                                            }
+                                                #water {
+                                                    grid-column: 2 / span 3;
+                                                } 
+
+                                    /*   level 12*/
+
+                                                #garden {
+                                                    display: grid;
+                                                    grid-template-columns: 20% 20% 20% 20% 20%;
+                                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                                }
+                                                    #water {
+                                                        grid-row-start: 3;
+                                                    } 
+
+                                                    /*level 13*/
+                                                    #garden {
+                                                        display: grid;
+                                                        grid-template-columns: 20% 20% 20% 20% 20%;
+                                                        grid-template-rows: 20% 20% 20% 20% 20%;
+                                                    }
+                                                        #water {
+                                                            grid-row: 3 / 6;
+                                                        } 
+
+                                                        /*level 14*/
+
+                                                        #garden {
+                                                            display: grid;
+                                                            grid-template-columns: 20% 20% 20% 20% 20%;
+                                                            grid-template-rows: 20% 20% 20% 20% 20%;
+                                                        }
+                                                            #poison {
+                                                                grid-column: 2;
+        grid-row: 5;                                                    } 
+
+                                                            /*level 15*/
+                                                            #garden {
+                                                                display: grid;
+                                                                grid-template-columns: 20% 20% 20% 20% 20%;
+                                                                grid-template-rows: 20% 20% 20% 20% 20%;
+                                                            }
+                                                                #water {
+                                                                    grid-column: 2 / 6;
+        grid-row: 1 / 6;                                                        } 
+
+                                                               /* level 16*/
+                                                                #garden {
+                                                                    display: grid;
+                                                                    grid-template-columns: 20% 20% 20% 20% 20%;
+                                                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                }
+                                                                    #water {
+                                                                        grid-area 1 / 2 / 4 / 6;
+                                                                    } 
+
+                                                                    /*level 17*/
+                                                                    #garden {
+                                                                        display: grid;
+                                                                        grid-template-columns: 20% 20% 20% 20% 20%;
+                                                                        grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                    }
+                                                                        #water {
+                                                                            grid-area: 1 / 4 / 6 / 5;
+                                                                        } 
+                                                            #water-2 {
+
+             grid-area: 2 / 3 / span 3 /span 3;                                               }
+
+                                                                        /*level 18*/
+                                                                        #garden {
+                                                                            display: grid;
+                                                                            grid-template-columns: 20% 20% 20% 20% 20%;
+                                                                            grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                        }
+                                                                            .water {
+                                                    order: 0;
+                                                        } 
+                            
+    #poison {
+        order: 1;
+    }
+
+                                                                            /*level 19*/
+                                                                            #garden {
+                                                                                display: grid;
+                                                                                grid-template-columns: 20% 20% 20% 20% 20%;
+                                                                                grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                            }
+                                                                                .water {
+                               order: 0;
+                             .poison {
+                                   order: -1;                            }                              
+
+                                                                               /* level 20*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 50% 50%;
+                                                                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                                }
+                                                                                    #water {
+                                                                                        grid-column: 1;
+                                                                                        grid-row: 1;
+                                                                                    } 
+
+                                                                                    /*level 21*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 
+repeat(8, 12.5%);
+                                                                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                                }
+                                                                                    #water {
+                                                                                        grid-column: 1;
+                                                                                        grid-row: 1;
+                                                                                    } 
+
+                                                                                    /*level 22*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 100px 3em 40%;
+                                                                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                                }
+                                                                               /*level 23*/
+                                                                                    #garden {
+                                                                                        display: grid;
+                                                                                        grid-template-columns: 1fr 5fr;                         grid-template-rows: 20% 20% 20% 20% 20%;                        }
+
+                                                                                        /*level 24*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 50px repeat(3, 1fr) 50px;
+                                                                                    grid-template-rows: 20% 20% 20% 20% 20%;
+                                                                                }
+                                                                                    #water {
+                                                                                        grid-area: 1 / 1 / 6 /2;
+                                                          #poison{
+                                                              grid-area: 1 / 5 / 6 / 6;                           }
+
+                                                                                    /*level 25*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 75px 3fr 2fr;                        grid-template-rows: 100%;                      } 
+
+                                                                                    /*level 26*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 20% 20% 20% 20% 20%;
+                                                                                    grid-template-rows: 50px 0 0 0 1fr;
+                                                                                }
+                                                                                    #water {
+                                                                                        grid-column: 1 / 6;
+                                                                                        grid-row: 5 / 6;
+                                                                                    } 
+
+                                                                                    /*level 27*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template-columns: 60% / 200px ;
+                            
+                                                        #water {
+                                                                                        grid-column: 1;
+                                                                                        grid-row: 1;
+                                                                                    } 
+
+                                                                                    /*level 28*/
+                                                                                #garden {
+                                                                                    display: grid;
+                                                                                    grid-template:  1fr 50px / 1fr 4fr;                        }
+    
